@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/projects": "pages/projects.js",
+  "/casestudies": "pages/casestudies.js",
+  "/casestudies/case-study-2-migration-experience": "pages/casestudies/case-study-2-migration-experience.js",
+  "/articles": "pages/articles.js"
+}

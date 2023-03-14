@@ -1,0 +1,44 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './planetaria-design-system.png'
+import landing from './landing.png'
+import modal from './modal.png'
+
+export const meta = {
+  author: 'Sathyan Velumani',
+  date: '2019-02-01',
+  title: 'Case Study 2: Migration Experience - Curated todos',
+  description:
+    'Contributed to the Design',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+## **Backstory**
+
+This was one of the first projects to come my way when I joined in 2018; A large set of paying customer bring data from other systems and the experience of setting the system was tedious both for the Customer and the implementation teams.
+This project involved migrating data from other systems to a new platform, which was a tedious process for both the customer and implementation teams. 
+There was a Google sheet which kept track of the various tasks and the statuses. The success team initially reached out to understand how we can remove the frictions in the existing process. 
+
+**Design Team** - Sathyan, Ruthiran
+## Spoiler
+We designed a solution(a small product) but it never got built; 
+This roadmap items always won the votes for experience improvement during prioritisation but in the lens of dollar value, a smaller *tooling* always got prioritised. 
+But the learnings were plenty and the designs and ideas always found its way in future projects such as PLG experiments, Onboarding, etc.,
+## How did we go about it?
+It took me 3 months to understand all the parts of the migration journey, the tools involved and the frictions and this journey was captured in Miro
+We mapped the journey and identified areas that can be productised. 
+**Story document** captured a couple of high level approaches and this was validated with internal stakeholders
+A sharing workshop with huge printouts of the solution - led to a discussion and a possible path to build
+*We kept losing the priortisation excercise every quarter and the Migration teams explored other tools such as [Monday.com](http://Monday.com) to help make parts of the journey better based on the findings.*
+
+Hypothesis
+Setting Expectation, Clear status and progress will increase successful migration
+### **Outcomes**
+* Personally, this exercise helped me understand the various parts of the customer journey
+* It helped Design better capture ideas and present > We still have a single slide of each idea and have implemented many of the explorations in other areas.
+* It helped me understand and better emphasise with the Product management practice
+* Naming approaches helps in product building
+
+<Image src={landing} alt="Payment Gateway landing page" />
+<Image src={modal} alt="Scalable modal for configuration of payment methods" />

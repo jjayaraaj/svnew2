@@ -1,0 +1,35 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import landing from './landing.png'
+import modal from './modal.png'
+
+export const meta = {
+  author: 'Sathyan Velumani',
+  date: '2019-02-01',
+  title: 'Case Study 1: Payment Gateway Revamp',
+  description:
+    'Contributed to the Design',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+## **Backstory**
+In 2018-19, Every payment gateway integration required a Product Manager and Designer to figure out where a particular settings and spend a couple of weeks to design. Some Payment Gateways like Stripe had more than 20  granular configurations and needs to be done right to successfully collect Subscription payments. 
+There was a clear need for understanding the 20+ Gateways available and make it better for the customer; and to save Design and development time.
+# Design Team - Sathyan, Ruthiran
+## Why Redesign?
+We needed a system that could handle different payment gateways and their specific configurations. Additionally, we wanted the payment gateway pages to match our new LEAP design(Design System). The current design had issues with the organisation of information, lack of differentiation between payment methods and settings, and the need to force-fit elements on the screen while accommodating new configurations.
+## Hypothesis
+We believed that payment methods were the key elements of the gateway pages. Surfacing them and showing what is available would help users get the most out of gateway configurations. With this design upgrade, the system should scale to accommodate new payment methods without the need to find a place for them every time we add something. We have also improved the copy experience in the gateway pages. This framework intends to reduce both development and design time.
+## How we went about it?
+This project was design driven from the start. The priority of Gateways team is always adding more gateways to our platform.
+We started a series a conversation with various stakeholders involved including support and success teams. Observations, support tickets and the insights were organically documented in Confluence.
+We created a **Story document**(a readable version of the document) that captured the context and the pitch for investment of engineering to revamp.
+We were lucky to have a backend developer who switched to Front end with the knowledge of payment gateway and a product manager who saw the value of a system which scales.
+## **Before**
+* No Organization of the information
+* Lack of differentiation between payment methods and settings
+* Lack of support with making the right choice with the payment gateway(or helpful suggestions/recommendations on the right payment methods)
+
+<Image src={landing} alt="Payment Gateway landing page" />
+<Image src={modal} alt="Scalable modal for configuration of payment methods" />
